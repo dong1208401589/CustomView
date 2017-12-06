@@ -11,6 +11,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="vertical"
+
             android:layout_height="match_parent">
             <Button
                 android:id="@+id/tv_radar"
@@ -19,6 +20,13 @@
                 android:layout_margin="5dp"
                 android:text="雷达"
                 android:onClick="radar"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="流式布局"
+                android:onClick="flow_layouy"
                 />
 
         </LinearLayout>
