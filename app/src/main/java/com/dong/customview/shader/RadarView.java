@@ -20,6 +20,7 @@ import com.dong.customview.R;
 
 /**
  * Created by dc on 2017/11/3.
+ * 雷达效果
  */
 
 public class RadarView extends View {

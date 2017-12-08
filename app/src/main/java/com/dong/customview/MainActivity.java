@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.dong.customview.flowlayout.FlowLayoutDemoActivity;
 import com.dong.customview.shader.RadarActivity;
+import com.dong.customview.xfermode.XfermodeActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,6 +32,11 @@ public class MainActivity extends AppCompatActivity {
      */
     public void flow_layouy(View view) {
         Intent intent=new Intent(this, FlowLayoutDemoActivity.class);
+        startActivity(intent);
+    }
+
+    public void xfermode(View view){
+        Intent intent=new Intent(this, XfermodeActivity.class);
         startActivity(intent);
     }
 }

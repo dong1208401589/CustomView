@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".shader.RadarActivity" />
         <activity android:name=".flowlayout.FlowLayoutDemoActivity" />
+        <activity android:name=".xfermode.XfermodeActivity" />
 
 
     </application>

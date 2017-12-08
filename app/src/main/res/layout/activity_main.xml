@@ -29,6 +29,14 @@
                 android:onClick="flow_layouy"
                 />
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="圆角，心电图，不规则水波纹"
+                android:onClick="xfermode"
+                />
+
         </LinearLayout>
 
     </ScrollView>
