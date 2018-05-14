@@ -95,13 +95,13 @@ public class FlowLayout extends ViewGroup {
 
         switch (hMode) {
             case MeasureSpec.AT_MOST:
-                mHeight = maxHeightLength + getPaddingTop() + getPaddingBottom();
+                mHeight = totalHeight + getPaddingTop() + getPaddingBottom();
                 break;
             case MeasureSpec.EXACTLY:
                 mHeight = hSize;
                 break;
             case MeasureSpec.UNSPECIFIED:
-                mHeight = maxHeightLength + getPaddingTop() + getPaddingBottom();
+                mHeight = totalHeight + getPaddingTop() + getPaddingBottom();
                 break;
             default:
                 break;
